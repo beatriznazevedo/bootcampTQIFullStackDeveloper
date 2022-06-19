@@ -2,25 +2,14 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./styles.css"
 
-function sum(a, b) {
-  return a + b
-}
+const element = 'Digital Innovation One'
+const element2 = <h1>Hello, world!</h1>
 
-function primeiroJSX() {
+function App() {
   return (
-    <div className="teste">
-      Beatriz Azevedo - Introdução ao ReactJS
-      <h1>Soma: {sum(10, 20)}</h1>
-    </div>
-  )
-}
-
-
-const App = () => {
-
-  return (
-    <div className="App">
-      {primeiroJSX()}
+    <div> 
+      {element}
+      {element2}
     </div>
   )
 }
