@@ -1,17 +1,20 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import "./styles.css"
+import Button from './Button'
 
-const element = 'Digital Innovation One'
-const element2 = <h1>Hello, world!</h1>
+function soma(a, b) {
+ alert (a + b)
+}
 
-function App() {
+function App () {
   return (
-    <div> 
-      {element}
-      {element2}
-    </div>
+<div className="App">
+    Hello World
+    <Button onClick={() => soma (10, 20)} name="Beatriz Azevedo" />
+</div>
   )
+
 }
 
 const rootElement = document.getElementById("root")
