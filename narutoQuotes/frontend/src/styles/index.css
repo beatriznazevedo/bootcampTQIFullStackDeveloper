@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    padding: 5px 40px;
+  
+    background: url(../images/bg.jpeg) no-repeat left center/cover;
+  
+    font-family: 'New Tegomin', serif;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    bottom: 0;
+  }
+  
+  .narutoImg {
+    /* full max-height: 50vh; */
+    max-width: 50vw;
+    align-self: flex-end;
+  }
+  
+  .boxQuote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quote {
+    font-size: 2em;
+  }
+  
+  .speaker {
+    margin-bottom: 50px;
+  }
