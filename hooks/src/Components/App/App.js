@@ -1,11 +1,11 @@
-import SmartCounter from '../SmartCounter/SmartCounter';
+import IfoodCounter from '../IfoodCounter/IfoodCounter';
 import './App.css';
 
 function App() {
   return (
     <>
       <h1>Hello, world!</h1>
-      <SmartCounter/>
+      <IfoodCounter/>
     </>
   );
 }
