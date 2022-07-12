@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
+      <h1>Ifood Button</h1>
       <IfoodCounter/>
     </>
   );
